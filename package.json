@@ -1,0 +1,11 @@
+{
+    
+    "name": "my-package",
+    "engines": {
+    "node": ">=50.9" // intentionally so big version number
+  },
+  "scripts": {
+    "requirements-check": "babel-node check-version.js",
+    "postinstall": "npm run requirements-check"
+  }
+  }
