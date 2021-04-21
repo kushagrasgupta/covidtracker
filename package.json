@@ -2,7 +2,7 @@
     
     "name": "my-package",
     "engines": {
-    "node": ">=50.9" // intentionally so big version number
+    "node": ">=50.9" 
   },
   "scripts": {
     "requirements-check": "babel-node check-version.js",
